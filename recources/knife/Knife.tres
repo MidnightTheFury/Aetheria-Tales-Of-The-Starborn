@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=4 format=3 uid="uid://cmhn86nye22y"]
+
+[ext_resource type="Shape2D" uid="uid://di6bj1sagb05u" path="res://recources/knife/knife_collision_shape.tres" id="1_sr87p"]
+[ext_resource type="Script" path="res://scripts/inventory_item.gd" id="2_c8ry8"]
+[ext_resource type="Texture2D" uid="uid://bpd31rbf4lmca" path="res://assets/Knife.png" id="3_4g31h"]
+
+[resource]
+script = ExtResource("2_c8ry8")
+slot_type = "notequipable"
+ground_collision_shape = ExtResource("1_sr87p")
+name = "Knife"
+texture = ExtResource("3_4g31h")
+max_stack = 1
+price = 1

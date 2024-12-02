@@ -1,2 +1,2 @@
-# Aetheria-Tales-Of-The-Starborn
-dasfsdgdfasd
+# Aetheria: Quest of The Starborn
+ our game in godot
