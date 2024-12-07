@@ -21,4 +21,4 @@ func _physics_process(delta: float) -> void:
 		else:
 			animated_sprite_2d.play_idle_animation()
 
-		move_and_slide()
+	move_and_slide()
