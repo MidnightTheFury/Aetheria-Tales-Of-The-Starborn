@@ -192,7 +192,7 @@ animations = [{
 size = Vector2(15, 18)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jxj5b"]
-size = Vector2(14, 19)
+size = Vector2(14, 2)
 
 [node name="Player3" type="CharacterBody2D"]
 collision_layer = 32
@@ -213,5 +213,5 @@ position = Vector2(-0.5, 0)
 shape = SubResource("RectangleShape2D_f6gl0")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
-position = Vector2(-2.38419e-07, 0.5)
+position = Vector2(-2.38419e-07, 9)
 shape = SubResource("RectangleShape2D_jxj5b")
